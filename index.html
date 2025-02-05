@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+        nav {
+            display: flex;
+            margin: 10px;
+            justify-content: space-between;
+            height: 60px;
+            background-color: rgba(0, 0, 255, 0.1);
+            padding: 15px;
+        }
+        .logo h1 {
+            margin-left: 30px;
+        }
+        a {
+            text-decoration: none;
+            font-size: 15px;
+            color: black;
+            padding-right: 30px;
+            font-weight: bold;
+        }
+        button {
+            font-size: 15px;
+            color: white;
+            font-weight: bold;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: cornflowerblue;
+            border: none;
+            width: 80px;
+            height: 33px;
+            margin-right: 50px;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 50px;
+        }
+        .text-content {
+            max-width: 50%;
+        }
+        .text-content p {
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .text-content p span {
+            color: skyblue;
+        }
+        .text-content .para {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #555;
+        }
+        .text-content .para button {
+            background-color: cornflowerblue;
+            margin-top: 40px;
+            color: white;
+            font-weight: bold;
+            height: 50px;
+            width: 150px;
+            border: none;
+            cursor: pointer;
+        }
+        .image-content {
+            max-width: 50%;
+        }
+        .image-content img {
+            width: 100%;
+            height: auto;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        .para p{
+          font-size: 15px;
+          font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <div class="content">
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shops</a>
+                <a href="items.html">Items</a>
+                <a href="detail.html">Details</a>
+                <a href="signIn.html"><button>Sign in</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="text-content">
+            <p>Hello partner let's <br>serve the world and we <br><span>Rise</span> together.</p>
+            <div class="para">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Atque autem incidunt reiciendis provident fugit adipisci assumenda, <br>molestias suscipit ea porro.</p>
+                <button>Explore Now 1</button>
+            </div>
+        </div>
+        <div class="image-content">
+            <img src="/CLASS PROJECT/IMAGE/man2.avif" alt="">
+        </div>
+    </div>
+</body>
+</html>
